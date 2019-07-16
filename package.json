@@ -1,10 +1,11 @@
 {
   "name": "@picktub/lot",
   "version": "0.0.1",
-  "description": "npm NPM test package.",
-  "main": "./dist/main.js",
+  "description": "Pick the something item which in the set(Array).",
+  "main": "./dist/index.js",
   "scripts": {
     "prepublishOnly": "npm run build",
+    "dev": "babel-node ./dev/index.js",
     "build": "webpack --mode production",
     "test": "npm run nodejsTest && npm run browserTest",
     "nodejsTest": "babel-node ./test/nodejsTestRun.js --config-file ./babel.config.js",

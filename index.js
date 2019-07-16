@@ -1,5 +1,5 @@
-import {testApi} from './src/test';
+import Lot from './src/Lot';
 
 export {
-  testApi
+  Lot
 };

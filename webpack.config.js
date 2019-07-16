@@ -2,13 +2,14 @@ const path = require('path');
 
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
-const libraryName = 'main';
-const outputFileName = `${libraryName}`;
+const libraryName = 'picktubLot';
 
 module.exports = {
-  entry: './index.js',
+  entry: {
+    index: './index.js',
+  },
   output: {
-    filename: `${outputFileName}.js`,
+    filename: '[name].js',
     path: path.resolve(__dirname, 'dist'),
     library: libraryName,
     libraryTarget: 'umd',
