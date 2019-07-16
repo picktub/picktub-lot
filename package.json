@@ -1,6 +1,6 @@
 {
   "name": "@picktub/lot",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Pick the something item which in the set(Array).",
   "main": "./dist/index.js",
   "scripts": {
